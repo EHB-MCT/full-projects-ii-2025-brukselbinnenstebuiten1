@@ -40,6 +40,24 @@ section h3 {
 	color: #08b14c;
 }
 
+section p strong {
+	margin: 30px;
+	font-size: 16px;
+	color: #000000;
+}
+section p strong em {
+	margin: 30px;
+	font-size: 16px;
+	color: #0bde5f;
+}
+
+section p strong a {
+	margin: 30px;
+	font-size: 16px;
+	color: #0bde5f;
+	text-decoration: none;
+}
+
 section button {
 	font-family: "nexa", sans-serif;
 	font-size: 16px;
