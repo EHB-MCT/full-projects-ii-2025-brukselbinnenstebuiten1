@@ -1,1 +1,170 @@
+/*
+    #FFFFFF
+    #08B14C
+    #078C3C
+    #05632B
+    #033B19
+    #0BDE5F
+*/
+head {
+	font-family: "Nexa", sans-serif;
+}
 
+body {
+	font-family: "nexa", sans-serif;
+	font-size: 16px;
+	background-color: #f2f2f2;
+	margin: 30px;
+	margin-bottom: 50px;
+}
+
+section h1 {
+	margin: 30px;
+	font-size: 36px;
+	font-weight: 800;
+	color: #08b14c;
+	text-transform: uppercase;
+}
+
+section h2 {
+	margin: 30px;
+	font-size: 28px;
+	font-weight: 700;
+	color: #08b14c;
+	text-transform: uppercase;
+}
+
+section h3 {
+	margin: 30px;
+	font-size: 22px;
+	font-weight: 600;
+	color: #08b14c;
+	text-transform: uppercase;
+}
+section p {
+	margin: 30px;
+	font-size: 16px;
+	color: #0bde5f;
+}
+section p strong {
+	margin: 30px;
+	font-size: 16px;
+	font-weight: 800;
+	color: #0bde5f;
+}
+section p em {
+	margin: 30px;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 800;
+	color: #0bde5f;
+}
+
+section p a {
+	margin: 30px;
+	font-size: 16px;
+	color: #0bde5f;
+	text-decoration: none;
+}
+section p a:hover {
+	text-decoration: underline;
+	color: #08b14c;
+}
+section blockquote {
+	margin: 30px;
+	font-size: 16px;
+	font-style: italic;
+	color: #0bde5f;
+	border-left: 4px solid #08b14c;
+	padding-left: 10px;
+}
+
+section button {
+	text-transform: uppercase;
+	font-family: "nexa", sans-serif;
+	font-size: 16px;
+	padding: 10px 20px;
+	background-color: #08b14c;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+.one {
+	background-color: #08b14c;
+}
+.two {
+	background-color: #078c3c;
+}
+.three {
+	background-color: #05632b;
+}
+.four {
+	background-color: #033b19;
+}
+.five {
+	background-color: #0bde5f;
+}
+
+section button:hover {
+	background-color: #0bde5f;
+}
+
+section form {
+	color: #08b14c;
+	padding: 1px;
+}
+
+section form input {
+	color: #000000;
+	border: 1px solid #08b14c;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 10px;
+}
+
+section form select {
+	color: #000000;
+	border: 1px solid #08b14c;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 10px;
+}
+
+section form textarea {
+	color: #000000;
+	border: 1px solid #08b14c;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 10px;
+}
+
+section form label input {
+	color: #08b14c;
+	padding: 1px;
+}
+
+section ul {
+	margin: 30px;
+	padding-left: 20px;
+	color: #0bde5f;
+}
+
+section ol {
+	margin: 30px;
+	padding-left: 20px;
+	color: #0bde5f;
+}
+
+section div {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+
+	margin: 30px;
+
+	background-color: #08b14c;
+	color: #ffffff;
+	border-radius: 10px;
+}
